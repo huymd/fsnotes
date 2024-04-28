@@ -7586,96 +7586,96 @@
       }
     },
     "B7t-9v-bSk.placeholderString" : {
-      "comment" : "Class = \"NSSearchFieldCell\"; placeholderString = \"Search or create\"; ObjectID = \"B7t-9v-bSk\";",
+      "comment" : "Class = \"NSSearchFieldCell\"; placeholderString = \"Search\"; ObjectID = \"B7t-9v-bSk\";",
       "extractionState" : "extracted_with_value",
       "localizations" : {
         "ar-IQ" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "needs_review",
             "value" : "بحث او انشاء"
           }
         },
         "de" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "needs_review",
             "value" : "Suchen oder erstellen"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "new",
-            "value" : "Search or create"
+            "value" : "Search"
           }
         },
         "es" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "needs_review",
             "value" : "Buscar o crear"
           }
         },
         "fr" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "needs_review",
             "value" : "Rechercher ou créer"
           }
         },
         "he" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "needs_review",
             "value" : "חיפוש ויצירה"
           }
         },
         "it" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "needs_review",
             "value" : "Cerca o crea"
           }
         },
         "ja" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "needs_review",
             "value" : "検索/新規作成"
           }
         },
         "ko" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "needs_review",
             "value" : "검색 및 추가"
           }
         },
         "nl-NL" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "needs_review",
             "value" : "Zoek of maak"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "needs_review",
             "value" : "Pesquisar ou criar"
           }
         },
         "pt-PT" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "needs_review",
             "value" : "Procurar ou criar"
           }
         },
         "ru" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "needs_review",
             "value" : "Найти или создать"
           }
         },
         "uk" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "needs_review",
             "value" : "Знайти або створити"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "needs_review",
             "value" : "搜索或创建（按下回车即可创建）"
           }
         }

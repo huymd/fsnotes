@@ -132,9 +132,8 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
                 
         let noteWindows = self.noteWindows.sorted(by: { $0.window!.orderedIndex > $1.window!.orderedIndex })
         for windowController in noteWindows {
-            if let frame = windowController.window?.frame {
-                let data = NSKeyedArchiver.archivedData(withRootObject: frame)
-                
+            if let frame = windowController.window?.frame, let data = try? NSKeyedArchiver.archivedData(withRootObject: frame, requiringSecureCoding: false) {
+                //let data = NSKeyedArchiver.archivedData(withRootObject: frame)
                 if let controller = windowController.contentViewController as? NoteViewController,
                     let note = controller.editor.note {
                     let key = windowController.window?.isKeyWindow == true
@@ -145,8 +144,8 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
         }
         
         // Main frame
-        if let vc = ViewController.shared(), let note = vc.editor?.note, let mainFrame = vc.view.window?.frame {
-            let data = NSKeyedArchiver.archivedData(withRootObject: mainFrame)
+        if let vc = ViewController.shared(), let note = vc.editor?.note, let mainFrame = vc.view.window?.frame, let data = try? NSKeyedArchiver.archivedData(withRootObject: mainFrame, requiringSecureCoding: false) {
+            //let data = NSKeyedArchiver.archivedData(withRootObject: mainFrame)
             let key = vc.view.window?.isKeyWindow == true
             
             result.append(["frame": data, "preview": vc.editor.isPreviewEnabled(), "url": note.url, "main": true, "key": key])

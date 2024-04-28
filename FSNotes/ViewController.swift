@@ -13,12 +13,7 @@ import Foundation
 import Shout
 import UserNotifications
 
-class ViewController: EditorViewController,
-    NSSplitViewDelegate,
-    NSOutlineViewDelegate,
-    NSOutlineViewDataSource,
-    NSTextFieldDelegate,
-    UNUserNotificationCenterDelegate {
+class ViewController: EditorViewController, NSSplitViewDelegate, NSOutlineViewDelegate, NSOutlineViewDataSource, NSTextFieldDelegate, UNUserNotificationCenterDelegate {
     
     // MARK: - Properties
     public var fsManager: FileSystemEventManager?
